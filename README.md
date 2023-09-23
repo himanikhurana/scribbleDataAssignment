@@ -4,18 +4,9 @@
 
 ScribbleData - YouTube Video Analysis is a Python-based project that aims to provide insights into YouTube video data through data analysis techniques. This project caters to data scientists, project managers, and analysts within a media company, enabling them to prepare, process, and analyze event data from YouTube in various meaningful ways.
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Project Structure](#project-structure)
-3. [Usage Instructions](#usage-instructions)
-4. [Features](#features)
-
-## 1. Introduction
 
 YouTube Video Analysis is a data-driven project designed to uncover patterns and trends within YouTube video data. By utilizing advanced data analysis techniques, this project offers valuable insights that can benefit content creators, marketers, and other stakeholders.
-
-## 2. Project Structure
+ Project Structure
 
 The project is structured into various components:
 
@@ -52,10 +43,3 @@ source venv/bin/activate
 `uvicorn app:app --port 8000`
 
 7. Access API documentation at: [http://localhost:8000/docs](http://localhost:8000/docs)
-
-## 4. Features
-
-- Identify outlier videos with unusually high or low views using Interquartile Range (IQR).
-- Analyze category popularity to discover trending categories.
-- Find videos with the most trending days.
-- Identify most favored channels, aiding advertisers in making informed decisions.
